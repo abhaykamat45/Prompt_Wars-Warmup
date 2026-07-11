@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { GoogleGenAI } from '@google/genai';
 
 export default function App() {
   const [apiKey, setApiKey] = useState('');
